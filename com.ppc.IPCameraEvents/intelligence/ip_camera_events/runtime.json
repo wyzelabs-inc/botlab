@@ -1,0 +1,76 @@
+{
+  "version": {
+    "trigger": 959, 
+    "deviceTypes": [
+      {
+        "id": 7004,
+        "minOccurrence": 0,
+        "trigger": true,
+        "read": true,
+        "control": true,
+        "reason": {
+          "en": "Access IP Cameras."
+        }
+      }
+    ],
+    "dataStreams": [
+      {
+        "address": "ip_camera_events_run_test"
+      }
+    ],
+    "schedules": {
+    },
+    "access": [
+      {
+        "category": 1,
+        "trigger": true,
+        "read": true,
+        "control": true,
+        "reason": {
+          "en": "Manage modes."
+        }
+      },
+      {
+        "category": 2,
+        "trigger": true,
+        "read": true,
+        "control": true,
+        "reason": {
+          "en": "Manage device files."
+        }
+      },
+      {
+        "category": 6,
+        "trigger": false,
+        "read": true,
+        "control": true,
+        "reason": {
+          "en": "Manage rules."
+        }
+      }
+    ],
+    "communications": [
+      {
+        "category": 0,
+        "email": true,
+        "push": true,
+        "sms": true,
+        "msg": true
+      },
+      {
+        "category": 1,
+        "email": true,
+        "push": true,
+        "sms": true,
+        "msg": true
+      },
+      {
+        "category": 2,
+        "email": true,
+        "push": true,
+        "sms": true,
+        "msg": true
+      }
+    ]
+  }
+}

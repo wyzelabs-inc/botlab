@@ -8,7 +8,9 @@
       "ppc.captureImage",
       "ppc.cameraName",
       "ppc.charging",
-      "ppc.flashOn"
+      "ppc.flashOn",
+      "eventTags",
+      "eventType"
     ]
   }
 }

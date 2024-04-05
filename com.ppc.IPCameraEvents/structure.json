@@ -1,0 +1,9 @@
+{
+  "extends": "com.ppc.Bot",
+  "microservices": [
+    "com.ppc.Microservices/intelligence/dashboard",
+    "com.ppc.Microservices/intelligence/data_request",
+    "com.ppc.Microservices/intelligence/daylight",
+    "com.ppc.Microservices/intelligence/last_seen"
+  ]
+}

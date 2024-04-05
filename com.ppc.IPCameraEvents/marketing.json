@@ -1,0 +1,19 @@
+{
+  "app": {
+    "category": "L",
+    "marketing": [
+      {
+        "lang": "en",
+        "name": "IP Camera Events",
+        "author": "Destry Teeter",
+        "copyright": "Copyright 2024 Care Daily",
+        "description": "IP Camera Events is a simple app that ...",
+        "marketingUrl": "http://caredaily.ai",
+        "supportUrl": "http://caredaily.zendesk.com",
+        "videoUrl": "",
+        "privacyUrl": "",
+        "keywords": ""
+      }
+    ]
+  }
+}
